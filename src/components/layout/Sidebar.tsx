@@ -58,7 +58,7 @@ export function Sidebar({ className }: SidebarProps) {
               alt="TAPMI" 
               className="h-8 w-8"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M9 18v-6'/%3e%3cpath d='m12 18 5-15'/%3e%3cpath d='M7 3h10'/%3e%3cpath d='M7 9h10'/%3e%3c/svg%3e";
+                (e.target as HTMLImageElement).src = "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='public/lovable-uploads/10c0d42d-cf49-4a3d-b8b7-471f04817df2.png' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M9 18v-6'/%3e%3cpath d='m12 18 5-15'/%3e%3cpath d='M7 3h10'/%3e%3cpath d='M7 9h10'/%3e%3c/svg%3e";
               }}
             />
             <span className="font-bold text-xl">Timetable Manager</span>
