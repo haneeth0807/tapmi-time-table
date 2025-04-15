@@ -344,7 +344,7 @@ export default function Courses() {
                   <SelectValue placeholder="All Programs" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Programs</SelectItem>
+                  <SelectItem value="all-programs">All Programs</SelectItem>
                   <SelectItem value="BBA">BBA</SelectItem>
                   <SelectItem value="MBA">MBA</SelectItem>
                 </SelectContent>
@@ -360,7 +360,7 @@ export default function Courses() {
                   <SelectValue placeholder="All Semesters" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Semesters</SelectItem>
+                  <SelectItem value="all-semesters">All Semesters</SelectItem>
                   {[1, 2, 3, 4, 5, 6, 7, 8].map((sem) => (
                     <SelectItem key={sem} value={sem.toString()}>
                       Semester {sem}
