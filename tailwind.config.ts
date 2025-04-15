@@ -52,6 +52,19 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				tapmi: {
+					50: '#f0f7ff',
+					100: '#e0eefe',
+					200: '#b9ddfe',
+					300: '#7cc2fd',
+					400: '#36a3fa',
+					500: '#0c87eb',
+					600: '#0070d8',
+					700: '#0059af',
+					800: '#064a8f',
+					900: '#0b3e76',
+					950: '#082754',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
