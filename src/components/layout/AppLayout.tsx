@@ -11,7 +11,7 @@ export function AppLayout() {
       <div className="flex flex-col flex-1 overflow-hidden">
         <header className="bg-white border-b border-gray-200 z-10">
           <div className="flex items-center justify-between px-6 py-3">
-            <h1 className="text-xl font-semibold text-gray-800">TAPMI Time Weaver</h1>
+            <h1 className="text-xl font-semibold text-gray-800">TAPMI Timetable Manager</h1>
             <RoleSelector />
           </div>
         </header>

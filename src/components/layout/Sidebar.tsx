@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -57,19 +56,18 @@ export function Sidebar({ className }: SidebarProps) {
             <img 
               src="/tapmi-logo.svg" 
               alt="TAPMI" 
-              className="h-8 w-8" 
+              className="h-8 w-8"
               onError={(e) => {
-                // Fallback if logo doesn't exist yet
                 (e.target as HTMLImageElement).src = "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M9 18v-6'/%3e%3cpath d='m12 18 5-15'/%3e%3cpath d='M7 3h10'/%3e%3cpath d='M7 9h10'/%3e%3c/svg%3e";
               }}
             />
-            <span className="font-bold text-xl">TimeWeaver</span>
+            <span className="font-bold text-xl">Timetable Manager</span>
           </div>
         )}
         <Button 
           variant="ghost" 
-          size="icon" 
-          className="text-white hover:bg-sidebar-accent" 
+          size="icon"
+          className="text-white hover:bg-sidebar-accent"
           onClick={() => setCollapsed(!collapsed)}
         >
           {collapsed ? <MenuIcon size={20} /> : <X size={20} />}

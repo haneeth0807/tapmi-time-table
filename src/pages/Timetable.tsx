@@ -37,7 +37,7 @@ const mockBBATimetable = {
   program: "BBA",
   semester: 1,
   days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-  slots: Object.keys(slotTimes),
+  slots: ["A", "1", "2", "Lunch", "3", "4", "B"],
   schedule: {
     "Monday": {
       "A": null,
@@ -92,7 +92,7 @@ const mockMBATimetable = {
   program: "MBA",
   semester: 1,
   days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-  slots: Object.keys(slotTimes),
+  slots: ["A", "1", "2", "Lunch", "3", "4", "B"],
   schedule: {
     "Monday": {
       "A": null,
@@ -147,7 +147,7 @@ const mockFacultyTimetable = {
   faculty: "Dr. Rajesh Kumar",
   courses: ["Marketing Management", "Consumer Behavior"],
   days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-  slots: Object.keys(slotTimes),
+  slots: ["A", "1", "2", "Lunch", "3", "4", "B"],
   schedule: {
     "Monday": {
       "A": null,
